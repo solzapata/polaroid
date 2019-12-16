@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+
+figcaption{
+    font-family: 'Cedarville Cursive';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cedarville Cursive'), local('Cedarville-Cursive'), url(https://fonts.gstatic.com/s/cedarvillecursive/v11/yYL00g_a2veiudhUmxjo5VKkoqA-B_nuIrpw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.background{
+    background-image: url(http://garchitecture.ca/php/images/headers/wood.jpg);
+    height: 100vh;  
+}
+
+img{
+    height: 150px;
+}
+
+.box{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 30px;
+    height: 150px; 
+    margin: 50px 10px;
+    box-shadow: 1px 2px 3px black;
+    text-align: center;
+    transition: .3s;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;                   
+    margin: auto;
+    justify-content: center;
+}
+
+.first{
+    transform: rotate(20deg);
+}
+
+.second{
+    transform: rotate(-15deg);
+}
+
+.third{
+    transform: rotate(10deg);
+}
+
+.fourth{
+    transform: rotate(-15deg);
+}
+
+.fifth{
+    transform: rotate(10deg);
+}
+
+.sixth{
+    transform: rotate(20deg);
+}
+
+.seventh{
+    transform: rotate(-15deg);
+}
+
+.eighth{
+    transform: rotate(20deg);
+}
+
+.nineth{
+    transform: rotate(10deg);
+}
+
+.tenth{
+    transform: rotate(-15deg);
+}
+
+.box:hover{
+    transform: scale(1.5);
+    z-index: 2;
+}
